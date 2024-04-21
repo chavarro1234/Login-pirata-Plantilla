@@ -1,0 +1,195 @@
+
+/* TIPOS DE LETRAS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+
+
+
+
+body{
+    background: url(fondo\ piratas.webp) center/ cover no-repeat;
+    width: 100vw;
+    height: 100vb;
+    margin: 0;
+    backdrop-filter: blur(0px);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    padding: 20px;
+    background: #00000059;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0px 30px 2px white;
+}
+
+.logo{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.logo::selection{
+    background: transparent;
+}
+
+/* TEXTOS */
+
+.title{
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-family: "Pirata One", system-ui;
+    text-align: center;
+    color: #dbdbdb;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    cursor: context-menu;
+}
+.title::selection{
+    background: transparent;
+}
+
+
+
+label{
+    display: block;
+    font-size: 16px;
+    padding-top: 20px;
+    color: #dbdbdb;
+    cursor: context-menu;
+}
+label::selection{
+    background: transparent;
+}
+
+
+.aun{
+    display: block;
+    color: #dbdbdb;
+    margin-top: 100px;
+    cursor: context-menu;
+}
+.aun::selection{
+    background: transparent;
+}
+
+
+a{
+    color: #467180;
+    text-decoration: none;
+}
+a::selection{
+    background: transparent;
+}
+
+
+p, h2{
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    
+}
+
+
+
+/* FORMULARIO DE INICIO */
+
+input[type="email"], 
+input[type="password"]{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    background: transparent;
+    color:#dbdbdb;
+}
+
+input[type="submit"]{
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 6px;
+    background: linear-gradient(90deg,#467180, #0E0E0E);
+    color: white;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 3s;
+}
+
+
+input[type="submit"]:hover{
+    background: linear-gradient(90deg,#0E0E0E, #467180);
+    color: #48e;
+}
+
+
+
+
+
+/* LADO DERECHO */
+
+.derecho{
+    width: 100%;
+    background: url(https://i.ebayimg.com/images/g/em0AAOSwzgRWvFz1/s-l1200.jpg) center/ cover no-repeat;
+    opacity: 0.7;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 10px 0px 30px 1px white;
+    transition: background 3s;
+}
+
+.derecho:hover{
+    background: url(https://i.pinimg.com/originals/1f/e7/0a/1fe70af7e00e2451586a6231dce690f0.jpg) center / cover no-repeat;
+}
+
+
+
+/* MENSAJE IMPORTANTE */
+
+
+dialog{
+    margin-top: 2%;
+    width: 45%;
+    border: 0;
+    border-radius: 20px;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.dialogo{
+    text-align: center;
+}
+
+
+/* BOTOOM */
+.bu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    cursor: pointer;
+    border: 0;
+    background: #d1d1d1;
+    border-radius: 0 10px 0 0;
+}
